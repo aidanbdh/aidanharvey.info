@@ -15,3 +15,25 @@
     /* text-decoration: none; */
     color: black;
 }
+
+.title {
+    display: block;
+    margin: 10px;
+    margin-left: 1px;
+    font-size: 52px;
+}
+
+#summary {
+    width: 68vw;
+    float: left;
+    margin-top: 0;
+    margin-right: 0vw;
+    font-size: 18px;
+}
+
+#portrait {
+    width: 20vw;
+    min-width: 180px;
+    float: right;
+    margin-right: 5vw;
+}
