@@ -1,0 +1,17 @@
+#bar {
+    display: inline-block;
+    width: 98vw;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.contact-info {
+    display: inline-block;
+    margin: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    /* text-decoration: none; */
+    color: black;
+}
