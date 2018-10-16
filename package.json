@@ -1,0 +1,25 @@
+{
+  "name": "aidanharvey.info",
+  "version": "1.0.0",
+  "description": "A website for users who want to view information about me.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanbdh/aidanharvey.info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidanbdh/aidanharvey.info/issues"
+  },
+  "homepage": "https://github.com/aidanbdh/aidanharvey.info#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
