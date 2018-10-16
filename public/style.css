@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+}
+
 #bar {
     display: inline-block;
     width: 98vw;
@@ -5,6 +9,7 @@
     border-width: 1px;
     border-radius: 5px;
     text-align: right;
+    background-color: lightgrey;
 }
 
 .contact-info {
@@ -21,14 +26,19 @@
     margin: 10px;
     margin-left: 1px;
     font-size: 52px;
+    text-align: left;
+}
+
+#about {
+    display: inline-block;
 }
 
 #summary {
     width: 68vw;
     float: left;
     margin-top: 0;
-    margin-right: 0vw;
-    font-size: 18px;
+    margin-right: 1vw;
+    font-size: 24px;
 }
 
 #portrait {
@@ -36,4 +46,23 @@
     min-width: 180px;
     float: right;
     margin-right: 5vw;
+}
+
+#resume {
+    text-align: center;
+}
+
+.link {
+    display: block;
+    width: 68vw;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#resume-image {
+    margin-top: 100px;
+    width: 90vw;
 }
