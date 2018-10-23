@@ -1,6 +1,65 @@
-body {
+body, html {
     background-color: lightblue;
 }
+
+#home {
+    height: 100%;
+    min-height: 100%;
+    background: url(background-home.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#home-filter {
+    height: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-text {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 18%;
+    font-family: 'Lato', sans-serif;
+}
+
+#title-container {
+    display: inline-block;
+}
+
+#home-text h2 {
+    font-size: 64px;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(30, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+#home-text h3 {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+  }
 
 #bar {
     display: inline-block;
@@ -46,6 +105,34 @@ body {
     min-width: 180px;
     float: right;
     margin-right: 5vw;
+}
+
+#labels {
+    display: inline-block;
+    text-align: right;
+}
+
+#labels p {
+    display: block;
+    height: 20px;
+    margin: 10px;
+}
+
+#bars {
+    display: inline-block;
+    width: 80vw;
+    text-align: right;
+    background-color: white;
+}
+
+.bar {
+    display: block;
+    width: 70vw;
+    height: 20px;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
 }
 
 #resume {

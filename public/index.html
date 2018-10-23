@@ -1,10 +1,18 @@
 <html>
     <head>
-        <title>Aidan Harvey</title>
+        <title>aidanharvey.info</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="/galogo-placeholder.png">
+        <link rel="icon" type="image/png" href="/computer.png">
     </head>
     <body>
+        <div id="home">
+            <div id="home-filter">
+                <div id="home-text" class=".align-middle">
+                    <div><div id="title-container"><h2 id="title">Aidan Harvey</h2></div></div>
+                    <h3 id="description"></h3>
+                </div>
+            </div>
+        </div>
         <div id="bar">
             <h1 class="contact-info">Aidan Harvey</h1>
             <a class="contact-info" href="tel:+17075923253">(707) 592-3253</a>
@@ -15,12 +23,45 @@
             <p id="summary">	Hi, my name is Aidan Harvey and I am a young and passionate JavaScript and NodeJS developer. My professional experience is in backend MERN stack (MongoDB, Express, React, Node) and I am an expert in JavaScript, NodeJS, MongoDB, MySql, testing tools such as mocha and chai, Docker and Socket.io, all of which I work with professionally. I have been working remote for a stealth startup for the past two years where I am the primary software developer in charge of designing, implementing and testing new features. I recieved my education from Orange County Code School in Irvine where I learned the essentials of JavaScript and software development. I am a part time student working towards my Computer Science degree at Napa Valley Community College and am looking for a full time job remotely or in the North Bay Area.</p>
             <img id="portrait" src="data:image/png;base64,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"/>
         </div>
+        <div id="skills">
+            <h2 class="title">Skills</h2>
+            <div id="labels">
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>MongoDB</p>
+                <p>MySql</p>
+                <p>Docker</p>
+                <p>Mocha</p>
+                <p>Chai</p>
+                <p>Socket.io</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>React</p>
+            </div>
+            <div id="bars">
+                <p class="bar 100">100%</p>
+                <p class="bar 100">100%</p>
+                <p class="bar 90">90%</p>
+                <p class="bar 70">70%</p>
+                <p class="bar 60">60%</p>
+                <p class="bar 100">100%</p>
+                <p class="bar 100">100%</p>
+                <p class="bar 40">40%</p>
+                <p class="bar 60">60%</p>
+                <p class="bar 60">60%</p>
+                <p class="bar 50">50%</p>
+            </div>
+        </div>
         <div id="resume">
             <h2 class="title">Resume</h2>
             <a class="link" href="https://drive.google.com/drive/u/0/folders/1BgmZgA-uD6Vr0kn3bEi-SUVK4p7zfCKT">Resume PDF</a>
             <a class="link" href="https://www.linkedin.com/in/aidanbdh/">Linkedin</a>
             <img id="resume-image" src="resume.jpg"/>
         </div>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
        <script src="main.js"></script>
     </body>
 </html>
